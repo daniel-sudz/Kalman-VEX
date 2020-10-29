@@ -15,8 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="g.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="kalman.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oneVarKalman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="g.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oneVarKalman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
