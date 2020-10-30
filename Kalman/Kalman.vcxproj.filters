@@ -15,24 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="g.cpp">
+    <ClCompile Include="..\src\g.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="kalman.cpp">
+    <ClCompile Include="..\src\kalman.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="matrix.cpp">
+    <ClCompile Include="..\src\matrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="oneVarKalman.cpp">
+    <ClCompile Include="..\src\oneVarKalman.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="g.h">
+    <ClInclude Include="..\src\g.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="oneVarKalman.h">
+    <ClInclude Include="..\src\oneVarKalman.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

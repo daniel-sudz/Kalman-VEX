@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\g.cpp" />
+    <ClCompile Include="..\src\kalman.cpp" />
+    <ClCompile Include="..\src\matrix.cpp" />
+    <ClCompile Include="..\src\oneVarKalman.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\g.h" />
+    <ClInclude Include="..\src\oneVarKalman.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{F130C3C9-27E7-47BC-BA17-87F5B7DA1655}</ProjectGuid>
@@ -87,6 +97,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\danie\Desktop\Kalman-VEX\src\eigen-3.3.8</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -137,16 +148,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="g.cpp" />
-    <ClCompile Include="kalman.cpp" />
-    <ClCompile Include="matrix.cpp" />
-    <ClCompile Include="oneVarKalman.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="g.h" />
-    <ClInclude Include="oneVarKalman.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
