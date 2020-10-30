@@ -1,9 +1,15 @@
 # Kalman-VEX
 
+## Dependencies
+Eigen 3.3.8
+### Linking in vscode (header only library)
+```project properties >> C/C++ >> General >> Additional Include Directories >> add src/eigen-3.3.8 ```
+### Docs 
+https://eigen.tuxfamily.org/dox/GettingStarted.html
+
 ## References
 
 CPP Implementations based on https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python <br>
-No external libraries linked currently
 
 ## Progress
 
